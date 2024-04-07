@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yx3 Perfumes</title>
+    <style>
+      /* Reset default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Global styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        line-height: 1.6;
+      }
+
+      /* Header styles */
+      header {
+        text-align: center;
+        padding: 2rem 0;
+        background-color: #333;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      /* Product section styles */
+      #products {
+        padding: 2rem;
+      }
+
+      .product {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .product img {
+        max-width: 100px;
+        margin-right: 1rem;
+      }
+
+      .product p {
+        font-size: 1.1rem;
+      }
+
+      /* Contact section styles */
+      #contact {
+        background-color: #444;
+        text-align: center;
+        padding: 2rem 0;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      /* Footer styles */
+      footer {
+        text-align: center;
+        padding: 1rem 0;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Yx3 Perfumes</h1>
+      <p>Your gateway to exquisite fragrances</p>
+    </header>
+    <section id="products">
+      <h2>Our Featured Perfumes</h2>
+      <div class="product">
+        <img src="jean-paul-gauthier.jpg" alt="Jean Paul Gauthier Elixir">
+        <p>
+          <strong>Jean Paul Gauthier Elixir</strong>
+        </p>
+        <p>5ml sample (approx. 90 sprays)</p>
+        <p>Price: 2-4 KWD (negotiable)</p>
+      </div>
+      <div class="product">
+        <img src="afnan-9pm.jpg" alt="Afnan 9pm">
+        <p>
+          <strong>Afnan 9pm</strong>
+        </p>
+        <p>5ml sample (approx. 90 sprays)</p>
+        <p>Price: 2-4 KWD (negotiable)</p>
+      </div>
+      <div class="product">
+        <img src="mont-blanc-legend-spirit.jpg" alt="Mont Blanc Legend Spirit">
+        <p>
+          <strong>Mont Blanc Legend Spirit</strong>
+        </p>
+        <p>5ml sample (approx. 90 sprays)</p>
+        <p>Price: 2-4 KWD (negotiable)</p>
+      </div>
+      <div class="product">
+        <img src="valentino-normal.jpg" alt="Valentino (Normal)">
+        <p>
+          <strong>Valentino (Normal)</strong>
+        </p>
+        <p>5ml sample (approx. 90 sprays)</p>
+        <p>Price: 2-4 KWD (negotiable)</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Interested in a Sample?</h2>
+      <p>Contact us at:</p>
+      <p>
+        <a href="tel:+96566158010">+965 66158010</a>
+      </p>
+    </section>
+    <footer>
+      <p>© 2024 Yx3 Perfumes</p>
+    </footer>
+  </body>
+</html>
